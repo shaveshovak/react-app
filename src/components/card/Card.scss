@@ -1,10 +1,6 @@
-@import url('../../assets/scss/mixin.scss');
-
-@mixin flexBox {
-    display: flex;
-}
+@use '../../assets/scss/mixin.scss' as style;
 
 .card {
     background-color: red;
-    @include flexBox()
+    @include style.flexBox
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import Card from './Card';
 
 const Cards = () => {
+
     const arrList = [
         {
             id: 10,
@@ -18,7 +19,8 @@ const Cards = () => {
             title: 'Title 3',
             text: 'text'
         }
-    ]
+    ];
+
     return (
         <div>
             {

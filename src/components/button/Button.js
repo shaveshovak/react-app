@@ -1,16 +1,8 @@
 import React from 'react';
 
-const Button = ({ title, btnStyle, handleClick, id, handleClick2}) => {
-
-    const btnClick = () => {
-        console.log('I am a button')
-      }
-
-      const btnClick2= () => {
-        console.log('I am a button')
-      }
+const Button = ({ title, btnStyle, handleClick}) => {
     return (
-        <button className={btnStyle} onClick={() => id === true ? btnClick : btnClick2}>
+        <button className={btnStyle} onClick={handleClick}>
             {title}
         </button>
     )
